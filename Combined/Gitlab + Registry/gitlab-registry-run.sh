@@ -6,4 +6,3 @@ rm gitlab-registry-run.sh
 wget https://raw.githubusercontent.com/OzNetNerd/Lab-Automation-Scripts/master/Gitlab/install-gitlab.sh
 chmod +x install-gitlab.sh
 GITLAB_PASSWORD=$GITLAB_PASSWORD GITLAB_TOKEN=$GITLAB_TOKEN ./install-gitlab.sh
-rm install-gitlab.sh
