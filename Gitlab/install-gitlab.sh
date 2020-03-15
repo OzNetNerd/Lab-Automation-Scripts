@@ -16,7 +16,7 @@ echo "Sleeping for 4 minutes to give Gitlab time to start"
 sleep 240
 
 echo "Starting Gitlab runner..."
-docker exec -it gitlab-runner \
+docker exec gitlab-runner \
 gitlab-runner register -n \
 --url http://$PRIVATE_HOSTNAME \
 --registration-token $GITLAB_TOKEN \
